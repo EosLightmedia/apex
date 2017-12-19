@@ -9,6 +9,6 @@ lib_dir_path = File.dirname(File.expand_path(__FILE__))
 Motion::Project::App.setup do |app|
   app.files.unshift(Dir.glob(File.join(lib_dir_path, "apex/**/*.rb")))
   app.pods do
-    pod "GCDWebServer", "~> 2.4"
+    pod "GCDWebServer", "~> 3.4.1"
   end
 end
